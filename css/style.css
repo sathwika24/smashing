@@ -4,6 +4,6 @@
     display: flex;
     float:left;
 }
-img{
+.img1{
     transform: rotate(-20deg);
 }
