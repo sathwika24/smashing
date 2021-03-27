@@ -1,3 +1,9 @@
-.bol{
-    z-index: 1;
+.tex{
+    position:relative;
+    z-index:1;
+    display: flex;
+    float:left;
+}
+img{
+    transform: rotate(-20deg);
 }
