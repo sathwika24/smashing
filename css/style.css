@@ -1,9 +1,46 @@
-.tex{
-    position:relative;
-    z-index:1;
-    display: flex;
-    float:left;
-}
+/* .tex{ 
+     .parent{
+     position: relative;
+     }
+      .child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    /* }s */
+    .tex{
+        position: relative;
+        z-index:1;
+    
+        
+
+    }
 .img1{
     transform: rotate(-20deg);
+    box-shadow: 5px 5px 3px white;
 }
+.img1:hover{
+    transform: rotate(0deg);
+    box-shadow: none;
+}
+.top1{
+    float:right;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .tex1{
+        font-size:40px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
